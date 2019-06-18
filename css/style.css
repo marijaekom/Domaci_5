@@ -1,0 +1,189 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1e1e1e;
+    color: #c0bab6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header, .main-content, footer {
+    width: 90%;
+}
+
+header{
+    overflow: hidden;
+    padding:1%;
+}
+
+.header-left{
+    float:left;
+    width: 33%;
+}
+
+header nav{
+    text-align: right;
+    width: 66%;
+    float:right;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-top: 4.6%;
+    margin-left: 2%;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #c0bab6;
+}
+
+header nav ul li a:hover{
+    color: white;
+}
+
+.main-content{
+    background-color: white;
+    overflow: hidden;
+    padding-bottom: 3%;
+}
+
+aside{
+    width: 33%;
+    float: left;
+    padding-left: 2%;
+    margin-top: 3%;
+}
+
+aside nav{
+    margin-bottom: 6%;
+}
+
+aside nav ul{
+    margin-bottom:3%;
+    margin-top: 2%;
+}
+
+aside nav ul li{
+    list-style-position: inside;
+    list-style-image: url(../images/orange_file.gif);
+    padding: 2% 2% 2% 0%;
+    border-bottom: 1px dashed gray;
+    margin-right: 1%;
+}
+
+aside nav ul li a{
+    text-decoration: none;
+    color: rgb(95, 92, 92);
+}
+
+aside nav ul li a:hover{
+    color:#ffb51f;
+}
+
+main{
+    width: 66%;
+    float: left;
+    margin-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    
+}
+
+main h2{
+    color: #ffb51f;
+    text-transform: uppercase;
+    padding-bottom: 2%;
+}
+
+main section p{
+    padding-top: 2%;
+}
+
+main section{
+    padding-bottom: 4%;
+}
+
+main section ul{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+main section ul li{
+    list-style-position: inside;
+    padding-left: 4%;
+}
+
+.tags{
+    background-color: #ececec;
+    padding: 2%;
+    margin-top: 2%;
+    margin-bottom: 2.5%;
+    font-style: italic;
+}
+
+.tags span a{
+    color: #ffb51f;
+    text-decoration: none;
+}
+
+.tags span a:hover{
+    color: #1e1e1e;
+}
+
+#images section{
+    width: 45%;
+    float: left; 
+}
+
+#images section h3{
+    font-weight: normal;
+}
+
+#images section img{
+    padding: 2%;
+    border: 1px solid gray;
+    width: 80%;
+}
+
+.img-left{
+    margin-right: 3%;
+}
+
+#images section p{
+    margin: 4% 0%;
+}
+
+#images section a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffb51f;
+}
+
+#images section a:hover{
+    color: #1e1e1e;
+}
+
+.align-right{
+    text-align: right;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+footer{
+    padding: 2% 0%;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
